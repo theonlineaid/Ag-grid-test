@@ -82,7 +82,7 @@ const dateFormatter = (params) => {
 };
 
 // Create new GridExample component
-const GridExample = () => {
+const Example2 = () => {
   const gridRef = useRef();
   // Row Data: The data to be displayed.
   const [rowData, setRowData] = useState([]);
@@ -164,4 +164,4 @@ const GridExample = () => {
   );
 };
 
-export default GridExample;
+export default Example2;
