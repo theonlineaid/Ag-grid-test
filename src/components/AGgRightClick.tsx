@@ -186,6 +186,7 @@ const AGgRightClick: React.FC = () => {
             border: "1px solid #ccc",
             padding: "10px",
             zIndex: 1000,
+            cursor: "pointer",
           }}
           onMouseLeave={() => setContextMenuVisible(false)}
         >
