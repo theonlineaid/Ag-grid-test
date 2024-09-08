@@ -1,3 +1,4 @@
+import AGgRightClick from './components/AGgRightClick'
 import AGLocalSave from './components/AGLocalSave'
 import Example1 from './components/Example1'
 import Example2 from './components/Example2'
@@ -10,6 +11,8 @@ export default function App() {
   return (
     <div style={{maxWidth: '1000px', margin: 'auto'}}>
 
+
+      <AGgRightClick />
       <AGLocalSave />
       <Example1 />
 

@@ -142,6 +142,7 @@ const AGLocalSave: React.FC = () => {
                         defaultColDef={defaultColDef}
                         getRowHeight={getRowHeight}
                         headerHeight={headerHeight}
+                        suppressContextMenu={false}
                     />
                 )}
             </div>
