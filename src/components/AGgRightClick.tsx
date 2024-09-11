@@ -33,6 +33,8 @@ const AGgRightClick: React.FC = () => {
 
   const gridApiRef = useRef<any>(null);
 
+  console.log(gridApiRef.current)
+
   const columnDefs: ColDef<IOlympicData>[] = useMemo(
     () => [
       { field: "athlete" },
@@ -96,7 +98,11 @@ const AGgRightClick: React.FC = () => {
 
   const onSelectionChanged = () => {
     const selectedRows = gridApiRef.current!.getSelectedRows();
+
+
     console.log(selectedRows, "RowData selection ------>>");
+
+    console.log(gridApiRef.current)
   };
 
   const onCellContextMenu = (event: any) => {

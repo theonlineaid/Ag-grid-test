@@ -153,7 +153,7 @@ const Example2 = () => {
           columnDefs={colDefs}
           defaultColDef={defaultColDef}
           pagination={true}
-          rowSelection="multiple"
+          rowSelection="single"
           onSelectionChanged={(event) => console.log("Row Selected!")}
           onCellValueChanged={(event) =>
             console.log(`New Cell Value: ${event.value}`)
